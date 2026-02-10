@@ -1,11 +1,19 @@
 import re
+'''
+$a_dd = asdf(asdf()).fdsfs().fsasdf();      
+\$\_*[a-zA-Z]*\_*[a-zA-Z]*  // 변수
 
+a = s + 90 + 3 - 5 * 3
+
+[a-zA-Z]*\(
+'''
 FUNC = 0
 VAR = 1
 OPER = 2
 STRING = 3
 NUM = 4
 SPACE = 5
+
 
 S_operation = []
 S_operand = []
@@ -271,11 +279,3 @@ while True:
 	print(S_operation)
 	print("====================")
 	print("",end='\n\n\n\n\n\n\n\n')
-'''
-$a_dd = asdf(asdf()).fdsfs().fsasdf();      
-\$\_*[a-zA-Z]*\_*[a-zA-Z]*  // 변수
-
-a = s + 90 + 3 - 5 * 3
-
-[a-zA-Z]*\(
-'''
